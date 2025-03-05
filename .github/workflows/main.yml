@@ -39,12 +39,12 @@ jobs:
           # The Diffblue Cover commands and options to use.
           # Below is the default behavior, uncomment these and edit to customize
           # how Diffblue Cover is run on your project.
-          #args: >-
-          #  ci
-          #  activate
-          #  build
-          #  validate
-          #  create
+          args: >-
+            ci
+            activate
+            build
+            validate
+            create
 
       # Collect Diffblue Cover outcome files
       # This step saves Diffblue Cover run outcome files for later use. These include summary
